@@ -10,6 +10,6 @@ before_install:
   - cd zint
   - mkdir build
   - cd build
-  - sudo cmake ..
-  - sudo make
+  - cmake ..
+  - make
   - sudo make install
