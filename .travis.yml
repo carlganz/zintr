@@ -14,4 +14,4 @@ before_install:
   - make
   - sudo make install
   - cd ..
-  - cd ..
+  - cd ../CannaData/zintr
