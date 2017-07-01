@@ -4,10 +4,10 @@
 #include <R_ext/Rdynload.h>
 
 /* .Call calls */
-extern SEXP barcode(SEXP);
+extern SEXP barcode(SEXP, SEXP);
 
 static const R_CallMethodDef CallEntries[] = {
-  {"barcode", (DL_FUNC) &barcode, 1},
+  {"barcode", (DL_FUNC) &barcode, 2},
   {NULL, NULL, 0}
 };
 

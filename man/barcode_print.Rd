@@ -4,10 +4,12 @@
 \alias{barcode_print}
 \title{Print barcodes}
 \usage{
-barcode_print(code)
+barcode_print(code, outfile = "out.png")
 }
 \arguments{
 \item{code}{Value to print as barcode}
+
+\item{outfile}{File to print}
 }
 \description{
 Use zint API to print barcodes

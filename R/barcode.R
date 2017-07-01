@@ -3,6 +3,7 @@
 #' Use zint API to print barcodes
 #' 
 #' @param code Value to print as barcode
+#' @param outfile File to print
 #' @export
 #' @useDynLib zintr, .registration = TRUE
 #' @examples 
@@ -11,6 +12,6 @@
 #' }
 #' 
 
-barcode_print <- function(code) {
-  .Call("barcode", as.character(code), PACKAGE = "zintr")
+barcode_print <- function(code, outfile = "out.png") {
+  .Call("barcode", as.character(code), as.character(outfile), PACKAGE = "zintr")
 }
