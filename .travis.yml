@@ -6,9 +6,9 @@ cache: packages
 
 
 before_install:
-  - sudo git clone https://github.com/zint/zint.git zint
-  - sudo cd zint
-  - sudo mkdir build
+  - git clone https://github.com/zint/zint.git zint
+  - cd zint
+  - mkdir build
   - cd build
   - cmake ..
   - make
