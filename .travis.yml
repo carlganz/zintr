@@ -6,13 +6,12 @@ cache: packages
 
 
 before_install:
-  - git clone https://github.com/zint/zint.git zint
-  - cd zint
+  - git clone https://github.com/zint/zint.git ../zint
+  - cd ../zint
   - mkdir build
   - cd build
   - cmake ..
   - make
   - sudo make install
   - cd ..
-  - ls ..
-  - cd ../CannaData/zintr
+  - cd ../zintr
