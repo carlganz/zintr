@@ -1,0 +1,13 @@
+Package: zintr
+Type: Package
+Title: Print Barcodes in R
+Version: 1.0
+Date: 2017-06-27
+Authors@R: c(
+  person("Carl","Ganz", role = c("aut", "cre"), email = "carlganz@gmail.com"),
+  person("CannaData Solutions", role = "cph")
+  )
+Description: Wraps the 'zint' C library (For more info: <http://www.zint.org.uk/>) for printing PNG barcodes in R.
+SystemRequirements: zint
+License: GPL (>= 2)
+RoxygenNote: 6.0.1
