@@ -3,3 +3,5 @@
 out\.png$
 ^\.travis\.yml$
 ^appveyor\.yml$
+^README\.Rmd$
+^README-.*\.png$
