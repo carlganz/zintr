@@ -4,12 +4,16 @@
 \alias{barcode_print}
 \title{Print barcodes}
 \usage{
-barcode_print(code, outfile = "out.png")
+barcode_print(code, outfile = "out.png", symbology = 20L, height = 50L)
 }
 \arguments{
 \item{code}{Value to print as barcode}
 
 \item{outfile}{File to print}
+
+\item{symbology}{Barcode type see \url{http://www.zint.org.uk/Manual.aspx?type=p&page=5}}
+
+\item{height}{Integer indicating height. Ignored for some symbologies.}
 }
 \description{
 Use zint API to print barcodes
