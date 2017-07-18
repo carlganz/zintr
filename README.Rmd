@@ -13,6 +13,7 @@ knitr::opts_chunk$set(
 ```
 
 [![Build Status](https://travis-ci.org/CannaData/zintr.svg?branch=master)](https://travis-ci.org/CannaData/zintr)
+[![Coverage Status](https://img.shields.io/codecov/c/github/CannaData/zintr/master.svg)](https://codecov.io/github/CannaData/zintr?branch=master)
 
 # zintr
 

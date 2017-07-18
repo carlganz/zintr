@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Build Status](https://travis-ci.org/CannaData/zintr.svg?branch=master)](https://travis-ci.org/CannaData/zintr)
+[![Build Status](https://travis-ci.org/CannaData/zintr.svg?branch=master)](https://travis-ci.org/CannaData/zintr) [![Coverage Status](https://img.shields.io/codecov/c/github/CannaData/zintr/master.svg)](https://codecov.io/github/CannaData/zintr?branch=master)
 
 zintr
 =====

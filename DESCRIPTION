@@ -11,4 +11,5 @@ Description: Wraps the 'zint' C library (For more info: <http://www.zint.org.uk/
 SystemRequirements: zint
 License: GPL (>= 2)
 RoxygenNote: 6.0.1
-Suggests: testthat, png
+Suggests: testthat, png,
+    covr

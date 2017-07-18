@@ -5,3 +5,4 @@ out\.png$
 ^appveyor\.yml$
 ^README\.Rmd$
 ^README-.*\.png$
+^codecov\.yml$

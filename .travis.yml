@@ -16,3 +16,6 @@ before_install:
   - sudo cp /usr/local/lib/libzint.* /usr/lib
   - cd ..
   - cd ../zintr
+  
+after_success:
+  - Rscript -e 'covr::codecov()'
