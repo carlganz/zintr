@@ -38,3 +38,6 @@ vignettes/*.pdf
 *.dll
 *.a
 *.so
+
+#Windows binaries
+windows

@@ -6,3 +6,4 @@ out\.png$
 ^README\.Rmd$
 ^README-.*\.png$
 ^codecov\.yml$
+windows
