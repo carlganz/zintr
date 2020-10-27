@@ -9,7 +9,7 @@ Authors@R: c(
   )
 Description: Wraps the 'zint' C library (For more info: <http://www.zint.org.uk/>) for printing PNG barcodes in R.
 SystemRequirements: zint
-License: GPL (>= 2)
+License: GPL-3
 RoxygenNote: 6.0.1
 Suggests: testthat, png,
     covr
